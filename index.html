@@ -1,66 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DASHBOARD</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-  </head>
-
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDWE</title>
+    <link rel="stylesheet" href="dashBoard.css">
+    <script src="https://kit.fontawesome.com/23f265f2d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
     <div class="container">
-      <aside>
-        <div class="top">
-          <div class="logo">
-            <h2>C I <span class="danger">Solution</span></h2>
-          </div>
-          <div class="close-icon">
-            <span class="material-symbols-sharp">close</span>
-          </div>
+        <!-- left/aside/one start  -->
+        <div class="one">
+
+        <aside>
+            <div class="top">
+                <div class="logo">
+                <img src="C:\Users\Admin\Downloads\logo (1).png" alt="">
+                <h2>DEV <span>SCHOOL</span></h2>
+            </div>
+
+                <div class="close" id="close_btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+
+            <!-- top end -->
+
+            <!-- sidebar start -->
+            <div class="sidebar">
+                <a href="">
+                      <i class="fa-solid fa-gauge"></i>
+                     <h3> Dashboard</h3>
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-user"></i>
+                   <h3> Costumer</h3>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+               <h3> Orders</h3>
+                </a>
+                <a href="">
+                    <i class="fa-sharp fa-solid fa-chart-simple"></i>
+                    <h3>Analytics</h3>
+                </a>
+
+                <a href="">
+                    <i class="fa-solid fa-comment"></i>
+                    <h3>Messages</h3>
+                    <span class="massage-count">15</span>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-product-hunt"></i>
+                    <h3>Product</h3>
+                </a>
+
+                <a href="">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <h3>Reports</h3>
+                </a>
+
+                <a href="">
+                    <i class="fa-solid fa-gear"></i>
+                    <h3>Setting</h3>
+                </a>
+
+
+                <a href="">
+                    <i class="fa-brands fa-product-hunt"></i>
+                    <h3>Add Product</h3>
+                </a>
+
+                <a href="">
+                    <i class="fa-solid fa-right-from-bracket"> </i>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+
+
+        </aside>
         </div>
-        <div class="sidebar">
-          <a href="">
-            <span class="material-symbols-sharp">grid_view</span>
-            <h3>DashBoard</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">person_outline</span>
-            <h3>Customer</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">insights</span>
-            <h3>Anlytics</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">mail_outline</span>
-            <h3>Message</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">receipt_long</span>
-            <h3>Products</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">report</span>
-            <h3>Reports</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">settings</span>
-            <h3>Setting</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">add</span>
-            <h3>Add Product</h3>
-          </a>
-          <a href="">
-            <span class="material-symbols-sharp">logout</span>
-            <h3>Logout</h3>
-          </a>
-        </div>
-      </aside>
+        <!-- left/aside/one end -->
+
+
+
+
+
+
+         <!-- center/middle/main body start  -->
+         <div class="two">
+            <h1>Dashboard</h1>
+            <input type="date" class="date">
+
+            <div class="inside">
+                <!-- sales card start -->
+                <div class="card sales" >
+                    <i class="fa-solid fa-chart-pie"></i>
+                   
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$34,312</h1>
+
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"> </circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <small class="text-mutted">last 24 Hours</small>
+                </div>
+                <!-- sales card end -->
+
+                 <!-- expences card start -->
+                 <div class="card expences" >
+                    <i class="fa-solid fa-chart-simple"></i>
+                   
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expence</h3>
+                            <h1>$422,312</h1>
+
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"> </circle>
+                            </svg>
+                            <div class="number">
+                                <p>41%</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <small class="text-mutted">last 24 Hours</small>
+                </div>
+                <!-- expences card end -->
+
+                 <!-- income card start -->
+                 <div class="card income" >
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                   
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Income</h3>
+                            <h1>$29,000</h1>
+
+                        </div>
+
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="39"> </circle>
+                            </svg>
+                            <div class="number">
+                                <p>61%</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <small class="text-mutted">last 24 Hours</small>
+                </div>
+                <!-- income card end -->
+
+                
+                
+                
+                
+            </div>
+            <div class="recent_order">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>foldable mini dron</td>
+                            <td>2343</td>
+                            <td>due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>foldable mini dron</td>
+                            <td>2343</td>
+                            <td>due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>foldable mini dron</td>
+                            <td>2343</td>
+                            <td>due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>foldable mini dron</td>
+                            <td>2343</td>
+                            <td>due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>foldable mini dron</td>
+                            <td>2343</td>
+                            <td>due</td>
+                            <td class="warning">pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+
+
+         </div>
+        <!-- center/middle/main body end  -->
+
+
+
+
+         <!-- right/analistic/three  start  -->
+         <div class="three">
+            <div class="top">
+                <button id="menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="theme-toggler">
+                    <i class="fa-solid fa-sun active"></i>
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>hey, <b>Harsha</b></p>
+                        <small class="text-mutted">admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="C:\Users\Admin\Downloads\2754576_woman_female_avatar_icon.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Downloads\profile-4.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Gaytri Pawar</b> received his order of Boxing Gloves</p>
+                        </div>
+                        <small class="text-mutted">2 Minutes Ago</small>
+                    </div>
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Downloads\profile-3.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Bhairavi Gawade</b> received his order of Punchin Bag</p>
+                        </div>
+                        <small class="text-mutted">46 Minutes Ago</small>
+                    </div>
+
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="C:\Users\Admin\Downloads\profile-2.jpg" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Milind Arolkar</b> received her order of Tenis Bat</p>
+                        </div>
+                        <small class="text-mutted">2 Hours Ago</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sales Anaystitcs -->
+            <div class="sales-analystics">
+                <h2>Sales Analystics</h2>
+
+                <div class="item online">
+                    <div class="icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3> Online Orders</h3>
+                            <small class="text-mutted">Last 24 Hours</small>
+                        </div>
+                        <h5>39%</h5>
+                        <h3>3456</h3>
+                    </div>
+                </div>
+
+
+                <div class="item offline">
+                    <div class="icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3> Offline Orders</h3>
+                            <small class="text-mutted">Last 24 Hours</small>
+                        </div>
+                        <h5>-17%</h5>
+                        <h3>3856</h3>
+                    </div>
+                </div>
+
+                <div class="item Customers">
+                    <div class="icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+
+                    <div class="right">
+                        <div class="info">
+                            <h3> New Customers</h3>
+                            <small class="text-mutted">Last 24 Hours</small>
+                        </div>
+                        <h5>+25%</h5>
+                        <h3>3816</h3>
+                    </div>
+                </div>
+
+                <div class="add-product">
+                    <div>
+                        <i class="fa-solid fa-plus"></i>
+                        <h3> Add Product</h3>
+                    
+                     </div>
+            </div>
+         </div>
     </div>
-  </body>
+    <script src="dashBoard.js"></script>
+</body>
 </html>
